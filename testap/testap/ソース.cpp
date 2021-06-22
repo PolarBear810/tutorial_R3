@@ -1,3 +1,4 @@
+//例題プログラム
 #include<stdio.h>
 void hyouzi(int hand, int myhand);
 int main(void) {
@@ -46,6 +47,7 @@ int main(void) {
 	}
 	return 0;
 }
+
 void hyouzi(int hand, int myhand) {
 	printf("きみの手 %d　VS　パソコンの手%d\n", hand, myhand);
 }
