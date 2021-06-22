@@ -1,10 +1,10 @@
-//—á‘èƒvƒƒOƒ‰ƒ€
+//ä¾‹é¡Œãƒ—ãƒ­ã‚°ãƒ©
 #include<stdio.h>
 void hyouzi(int hand, int myhand);
 int main(void) {
 	int i=1,hand,myhand,flag=0;
 	char s[10];
-	printf("‚¶‚á‚ñ‚¯‚ñgame:ƒO[‚Ì‚Í0,ƒ`ƒ‡ƒL‚Ì‚Í1,ƒp[‚Ì‚Í2‚ğ“ü—Í‚µ‚Ä‚Ë(‚â‚ß‚é‚Æ‚«‚Í3)\n");
+	printf("ã˜ã‚ƒã‚“ã‘ã‚“game:ã‚°ãƒ¼ã®æ™‚ã¯0,ãƒãƒ§ã‚­ã®æ™‚ã¯1,ãƒ‘ãƒ¼ã®æ™‚ã¯2ã‚’å…¥åŠ›ã—ã¦ã­(ã‚„ã‚ã‚‹ã¨ãã¯3)\n");
 	while (i<9999)
 	{
 		scanf("%d", &myhand);
@@ -32,13 +32,13 @@ int main(void) {
 		switch (flag)
 		{
 		case(0):
-			printf("‚ ‚¢‚±\n");
+			printf("ã‚ã„ã“\n");
 			break;
 		case(1):
-			printf("‚«‚İ‚ÌŸ‚¿\n");
+			printf("ãã¿ã®å‹ã¡\n");
 			break;
 		case(2):
-			printf("‚«‚İ‚Ì•‰‚¯\n");
+			printf("ãã¿ã®è² ã‘\n");
 			break;
 		default:
 			break;
@@ -49,5 +49,5 @@ int main(void) {
 }
 
 void hyouzi(int hand, int myhand) {
-	printf("‚«‚İ‚Ìè %d@VS@ƒpƒ\ƒRƒ“‚Ìè%d\n", hand, myhand);
+	printf("ãã¿ã®æ‰‹ %dã€€VSã€€ãƒ‘ã‚½ã‚³ãƒ³ã®æ‰‹%d\n", hand, myhand);
 }
