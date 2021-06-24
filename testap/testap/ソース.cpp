@@ -10,10 +10,7 @@ int main(void) {
 		scanf("%d", &myhand);
 
 		if (myhand == 3)break;
-		
-		if (i % 2 == 0)hand = 0;
-		else if (i % 2 == 1)hand = 1;
-		else if (i % 11 == 0)hand = 2;
+
 		
 		if (hand == 0 && myhand == 0)flag = 0;
 		else if (hand == 0 && myhand == 1)flag = 1;
