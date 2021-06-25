@@ -2,3 +2,4 @@
 tutorial R3
 conflict test
 add text
+example txt "hello"
