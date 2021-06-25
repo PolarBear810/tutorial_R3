@@ -1,4 +1,4 @@
 # tutorial_R3
 tutorial R3
-conflict test ok
+conflict test
 add text
