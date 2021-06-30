@@ -1,4 +1,4 @@
-//例題プログラ
+//例題プログラム
 #include<stdio.h>
 void hyouzi(int hand, int myhand);
 int main(void) {
